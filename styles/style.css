@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------- Navbar Start -------------*/
+nav .navbar-item{
+    margin: 0 10px;
+}
+nav .navbar-link,
+nav .navbar-logo{
+    color: #3E3E3E;
+    font-weight: 500;
+}
+
+/*-------------- Navbar End------------ */
+
+/*-------------- Banner Start------------ */
+.banner-item img{
+    width: 100%;
+    min-height: 70vh;
+    object-fit: cover;
+    object-position: center;
+}
+.banner-info {
+	bottom: 3.25rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.banner-item h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.banner-item p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.banner-item a {
+	color: #3F87F5 !important;
+	font-weight: 500;
+	padding: 10px 40px;
+}
+
+/*-------------- Banner End------------ */
+/*-------------- Albam Start------------ */
+.album{
+    padding: 95px 0;
+    position: relative;
+}
+.album-info h3{
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: 700;
+}
+.album-info p{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.toast:not(.show) {
+	display: block;
+}
+.album-toast{
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    border-left: 7px solid #3F87F5;
+    max-width: 265px;
+}
+.album-toast-body i{
+    color: #3F87F5;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+
+
+
+/*-------------- Albam End------------ */
+/*-------------- Package Start------------ */
+.package{
+    margin-bottom: 100px;
+}
+.package-card{
+    padding: 40px 20px 30px;
+}
+.package-title{
+    margin-bottom: 90px;
+}
+.package-card h3 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #231D4F;
+	margin-bottom: 20px;
+}
+.package-card h4 {
+	font-size: 28px;
+	font-weight: 700;
+	color: #231D4F;
+	margin-bottom: 10px;
+}
+.package-card p,
+.package span{
+    color: #848199;
+    font-size: 15px;
+    font-weight: 400;
+}
+.package-card li{
+    margin: 8px 0;
+}
+.package-card i{
+    width: 30px;
+    height: 30px;
+    background-color: #5243c211;
+    color: #5243C2;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.btn-package{
+    display: inline-block;
+    margin-top: 6px;
+    background-color: #FEF5FA;
+    color: #3F87F5;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+.btn-package:hover{
+    color: #3F87F5;
+}
+/*-------------- Package End------------ */
+
+/*-------------- Cleints Start------------ */
+.clients{
+    margin-bottom: 100px;
+}
+.client-card{
+    padding: 10px 5%;
+}
+.client-card p{
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+.client-card h4{
+    color: #0C1920;
+    font-size: 14px;
+    font-weight: 600;
+}
+.client-card h5{
+    color: #747474;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*-------------- Cleints End------------ */
+.question{
+    margin-bottom: 100px;
+}
+
+
+
+
+/*-------------- Footer------------ */
+footer{
+    padding: 60px 0;
+    background-color: #000;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    footer p{
+        margin-top: 20px;
+    }
+}
+
+/* ! For Album */
+@media screen and (max-width: 767px) {
+    .album{
+        padding: 50px 0;
+    }
+    .album-toast{
+        top: 5%;
+    }
+
+}
+/* ! For Banner Caption */
+
+@media screen and (max-width: 575px) {
+    .banner-info {
+        width: 95%;
+    }
+    .banner-info h2{
+        font-size: 30px; 
+    }
+}
+@media screen and (min-width: 576px) {
+    .banner-info {
+        width: 90%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .banner-info {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .banner-info {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .banner-info {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .banner-info {
+        width: 40%;
+    }
+}
+
